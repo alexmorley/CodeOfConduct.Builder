@@ -1,44 +1,16 @@
-<html lang="en" class="js">
-
-  <head>
-                <meta name="description" content="A Template for generate Codes of Conduct">
-		<link rel="icon" href="https://milligram.github.io/images/icon.png">
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-                <link rel="stylesheet" href="../dist/milligram.min.css">
-                <link rel="stylesheet" href="https://milligram.github.io/styles/main.css">
-   
-    <title>License generator - Binpress</title>
-  </head>
-
-
-  <div id="title">
-    <h1>Code of Conduct Builder</h1>
-  </div>
-
-  <div id="code generator">
-
-    <div class="What are you making a Code of Conduct for?">
-      <label>What are you making a Code of Conduct for?</label>
-      <select name="event_type" id="event_type">
-	<option value="1" label="Event (General)" selected="selected">Event (General)</option>
-	<option value="2" label="Event (Conference)">Event (Conference)</option>
-	<option value="3" label="Organisation (General)">Organisation (General)</option>
-	<option value="3" label="Organisation (Online">Organisation (Online)</option>
-      </select>
-    </div>
-
-    <div id = "Acceptance Request">
-      <h3>Confirmation</h3>
-      <p>Do you want to add an acceptance request at the end of the Code of Conduct?</p>
-      <label for="derivative-1">
-	<input type="radio" name="derivative" id="derivative-1" value="1" checked="checked">Yes - leave space for a physical signative</label>
-      <label for="derivative-0"><input type="radio" name="derivative" id="derivative-0" value="0">Yes - add a checkbox confirmation</label>
-      <label for="derivative-2"><input type="radio" name="derivative" id="derivative-2" value="2">No</label>		
-      </li>
-      </ol>
-    </div>
+---
+layout: default
+title: Code of Conduct Builder
+---
+<head>
+<script>
+  function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+            }
+</script>
+</head>
 
 
-  </div>
-</html>
+<div class="container" height=5000>
+<iframe id="section" src="inner.html" style="width:100%" onload="resizeIframe(this);" scrolling="no"></iframe> 
+</div>
