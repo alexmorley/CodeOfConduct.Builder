@@ -1,0 +1,12 @@
+.container {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+.leftFrame {
+    width: 45%;
+    float: left;
+}
+.rightFrame {
+    margin-left: 5%;
+}
