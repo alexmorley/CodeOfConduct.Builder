@@ -9,3 +9,4 @@
 | SWC Workshop CoC  | Event  | MIT | https://software-carpentry.org/conduct/ |
 | AdaInitiative Guide  | Resource (How-to) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  | https://adainitiative.org/2014/02/18/howto-design-a-code-of-conduct-for-your-community  |
 | MozSci - WoW  | Resource (How-to)  | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  | http://mozillascience.github.io/working-open-workshop/code_of_conduct/  |
+| Geek Feminism Wiki | Event | [CC Zero](http://creativecommons.org/publicdomain/zero/1.0/) | http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy
