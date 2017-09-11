@@ -35,15 +35,13 @@ h1 {text-align:center;}
         <div id="cocPreset">
             <label>Choose a Code of Conduct to start remixing?</label>
             <select id="coc-base">
-                <option value="ContributersCovenant" label="Contributor Covenant" selected="selected">
+                <option value=" " label="" selected="selected">Choose one</option>
+                <option value="ContributorCovenant" label="Contributor Covenant">
                 Contributor Covenant</option>
                 <option value="MozSciLab" label="MozSciLab">
                 Mozilla Science Lab</option>
             </select>
         </div>
-
-
-
 
         <h3>Confirmation</h3>
         <div id = "Acceptance Request">
@@ -61,7 +59,8 @@ h1 {text-align:center;}
 </div>
 
 <div class="rightFrame" id="rightFrame">
-    <h2 id = your-title> Preview - Your Title Goes Here </h2> 
+    <h2 id = your-title>Preview - Your Title Goes Here </h2> 
+    <h3 id = "sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h3> <h3 id = "sub-title" style="display: inline-block"> X </h3>
     <h3>Good Stuff</h3>
     <div id=encouragedBehaviours>
         This stuff cool. Keep it up. 
@@ -69,7 +68,8 @@ h1 {text-align:center;}
     <br>
     <h3>Bad Stuff</h3>
     <div id=unacceptable>
-        Uh uh... This stuff gonna get you kiiiiicked out (or worse).
+        Uh uh... This stuff gonna get you kicked out (or worse).
+        <ul id="linkList"></ul>
     </div>
 </div>
 </section>
