@@ -8,5 +8,6 @@
     float: left;
 }
 .rightFrame {
-    margin-left: 5%;
+    float:left;
+    width: 45%;
 }

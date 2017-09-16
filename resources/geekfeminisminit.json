@@ -1,10 +1,10 @@
 {
-    "Title" : "Geek Feminism Wiki",
+    "title" : "Geek Feminism Wiki",
     "descriptor" : "This is an example anti-harassment policy suitable for most open source, computing, or technology-related conferences. It may be adopted unchanged or tweaked to suit your conference.",
     "why?" : "Why have an official anti-harassment policy for your conference? First, it is necessary (unfortunately). Harassment at conferences is incredibly common - for example, see this timeline of sexist incidents in geek communities. Second, it sets expectations for behavior at the conference. Simply having an anti-harassment policy can prevent harassment all by itself. Third, it encourages people to attend who have had bad experiences at other conferences. Finally, it gives conference staff instructions on how to handle harassment quickly, with the minimum amount of disruption or bad press for your conference.",
     "short" : "$CONFERENCE is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at: [URL for full anti-harassment policy]",
     "medium" : "$CONFERENCE is dedicated to providing a harassment-free conference experience for everyone [, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion [insert any other specific concerns here]]. We do not tolerate harassment of conference participants in any form. [Sexual language and imagery is not appropriate for any conference venue, including talks.] Conference participants violating these rules may be sanctioned or expelled from the conference [without a refund] at the discretion of the conference organizers. Our anti-harassment policy can be found at: [URL for full anti-harassment policy]",
-    "UnacceptableBehaviours" : {
+    "unacceptable_behaviour" : {
         "subtitle" : "Harassment includes, but is not limited to:",
         "list" : ["Verbal comments that reinforce social structures of domination [related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, [your specific concern here].",
             "Sexual images in public spaces",

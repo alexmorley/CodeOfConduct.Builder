@@ -12,15 +12,21 @@ function onLoad() {
             }
         })        
         console.log("Read attempted");
-        $('#sub-title').text(json_obj["Title"]);
+        $('#sub-title').text(json_obj["title"]);
 
-        // $('#encouragedBehaviours'.text(
-        
-        $("#linkList").empty();
-        $.each(json_obj.UnacceptableBehaviour.list, function( i, point ) {
+
+        $("#badlist").empty();
+        $.each(json_obj.unacceptable_behaviour.list, function( i, point ) {
             var $li = $("<li><a>"+point+"</a></li>");      
-            $("#linkList").append($li);            
+            $("#badlist").append($li);            
         });
+
+        $("#goodlist").empty();
+        $.each(json_obj.encouraged_behaviour.list, function( i, point ) {
+            var $li = $("<li><a>"+point+"</a></li>");      
+            $("#goodlist").append($li);            
+        });
+
     });
 
     $('#event-name').on('input', function() {
