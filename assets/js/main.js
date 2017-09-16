@@ -1,5 +1,4 @@
 function onLoad() {
-    //$('#rightFrame').hide(); 
     $('#coc-base').on('change', function() {
         var selectedBase = $('#coc-base option:selected').val();
         console.log(selectedBase);
@@ -22,6 +21,11 @@ function onLoad() {
             var $li = $("<li><a>"+point+"</a></li>");      
             $("#linkList").append($li);            
         });
+    });
+
+    $('#event-name').on('input', function() {
+        console.log(this.value);
+        $('#your-title').text(this.value + '\'s Code of Conduct');
     });
 }
 console.log("yep");
