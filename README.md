@@ -14,3 +14,5 @@ A set of clickable options to build the perfect Code of Conduct for your event/c
   - or even browser version which checks you have actually read the main points?
 - use glitch?
 - fork this guy? https://github.com/cbetta/hackcoc ? Need to ask them for proper license/permission
+- add an edit button to fields on the right fram
+- (add a feed to export html of right frame to save -> pdf & pandoc -> odt & docx
