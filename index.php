@@ -61,7 +61,8 @@ h1 {text-align:center;}
         </div>
     </div>
 
-    <div class="rightFrame" id="rightFrame" contenteditable="true">
+    <div class="rightFrame" id = "noedit">
+    <div id="rightFrame" contenteditable="true">
         <h2 id = your-title>Preview - Your Title Goes Here </h2> 
         <h4 id = "sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h4> <h4 id = "sub-title" style="display: inline-block"> X </h4>
         <h3>Encouraged Behaviour</h3>
@@ -71,6 +72,8 @@ h1 {text-align:center;}
         <ul id="badlist"></ul>
         <h3>How can I report a violation of the Code of Conduct?</h3>
         <ul id="reporting"></ul>
+    </div>
+    <input type="button" id="save_button" value="Save As"> 
     </div>
 </section>
 

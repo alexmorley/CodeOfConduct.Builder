@@ -33,6 +33,16 @@ function onLoad() {
         console.log(this.value);
         $('#your-title').text(this.value + '\'s Code of Conduct');
     });
+
+    $("#save_button").click(function () {
+        console.log("clicked");
+        var text = $("#rightFrame").html();
+        var url = "save.php";
+        $.post(url, {rightFrame: text}, function () {
+            //$("#textArea").css("background", "#ccc").prop("contenteditable", false);
+            alert("Thanks for your message!");
+        });
+    }); 
 }
 console.log("yep");
 $(document).ready(onLoad);
