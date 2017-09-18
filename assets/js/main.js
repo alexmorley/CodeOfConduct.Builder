@@ -40,7 +40,7 @@ function onLoad() {
         var url = "save.php";
         $.post(url, {rightFrame: text}, function () {
             //$("#textArea").css("background", "#ccc").prop("contenteditable", false);
-            alert("Thanks for your message!");
+            console.log(text.length + " characters sent to server.");
         });
     }); 
 }
