@@ -9,15 +9,16 @@ A set of clickable options to build the perfect Code of Conduct for your event/c
 - [X] add an edit button to fields on the right frame
 - [X] Set up a cloud instance
 - [X] Register domain name
-- [ ] Add save as pdf/docx/odt/html button. WIP
+- [X] Add save as pdf/docx/odt/html button. WIP
   - [X] export html of right frame to save
   - [X] test pandoc
   - [X] install pandoc
-  - [ ] force download https://boutell.com/newfaq/creating/forcedownload.html
-- [ ] ADMIN: implement git-flow branches on repo
-  - [ ] Merge this into master
-  - [ ] Tag release
-  - [ ] Create develop/hotfix/feature branches
+  - [X] force download https://boutell.com/newfaq/creating/forcedownload.html
+  - [ ] Change to Convert to: & Download Buttons (need a callback for when conversion is done)
+- [X] ADMIN: implement git-flow branches on repo
+  - [X] Merge this into master
+  - [X] Tag release
+  - [X] Create develop/hotfix/feature branches
 - [ ] Landing page with Why do I need a code of conduct link
 
 ### Features
