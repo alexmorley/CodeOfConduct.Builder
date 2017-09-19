@@ -7,12 +7,12 @@ A set of clickable options to build the perfect Code of Conduct for your event/c
 - [X] Create a split screen with options & CoC on right
 - [X] Use options to modify right screen
 - [X] add an edit button to fields on the right frame
-- [ ] Set up a cloud instance
-- [ ] Register domain name
+- [X] Set up a cloud instance
+- [X] Register domain name
 - [ ] Add save as pdf/docx/odt/html button. WIP
   - [X] export html of right frame to save
   - [X] test pandoc
-  - [ ] install pandoc
+  - [X] install pandoc
   - [ ] force download https://boutell.com/newfaq/creating/forcedownload.html
 - [ ] ADMIN: implement git-flow branches on repo
   - [ ] Merge this into master

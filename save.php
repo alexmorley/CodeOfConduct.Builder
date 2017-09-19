@@ -1,21 +1,14 @@
 <?php
-
-echo 'DEBUG: save.php running';
-
+header('Content-disposition: attachment; filename=your_license.docx');
+header('Content-type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 $dir = 'license_tmp';
-
-// create new directory with 744 permissions if it does not exist yet
-// owner will be the user/group the PHP script is run under
 if ( !file_exists($dir) ) {
     echo $b;
 	$oldmask = umask(0);
-	mkdir ($dir, 0777); //remember to change this back for production
+	mkdir ($dir, 0775); 
 }
-
 file_put_contents($dir.'/post.dump', $_POST);
-
 $ext = 'docx';
-
-exec("pandoc -f html -t {$ext} -o {$dir}/licence.{$ext} {$dir}/post.dump");
-
+exec("pandoc -f html -t {$ext} -o {$dir}/your_licence.{$ext} {$dir}/post.dump");
+readfile("{$dir}/your_licence.{$ext}")
 ?>
