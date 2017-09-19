@@ -16,6 +16,7 @@ h1 {text-align:center;}
 
 <div id="title" class="container" text-align="center">
     <h1>Code of Conduct Builder</h1>
+    <a class=button href="mailto:alex0morley@gmail.com?Subject=Code%20of%20Conducts">This is still *very* alpha at the moment. Please send feedback to alex0morley@gmail.com or @alexmorley on twitter. Thanks!</a>
 </div>
 
 <section class="container">
@@ -51,7 +52,10 @@ h1 {text-align:center;}
         <h3>How can I report a violation of the Code of Conduct?</h3>
         <ul id="reporting"></ul>
     </div>
-    <input type="button" id="save_button" value="Save As"> 
+    <input type="button" id="save_button" value="Convert to .docx">
+    <form action="download.php" style="display: inline">
+	<input type="submit" id="download" value="Download">
+    </form>
     </div>
 </section>
 
