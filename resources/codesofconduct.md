@@ -1,4 +1,6 @@
 # Codes of Conduct - Summary
+NB. There's an even better list [here](http://geekfeminism.wikia.com/wiki/Code_of_conduct).
+
 | Name  | Type | Licence | Link |
 | ---   | ---  | ---     | ---  |
 | Contributor Covenant | Online/Organisation | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | http://contributor-covenant.org/
