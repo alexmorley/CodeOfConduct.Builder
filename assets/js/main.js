@@ -34,11 +34,16 @@ function onLoad() {
         $('#your-title').text(this.value + '\'s Code of Conduct');
     });
 
-    $("#save_button").click(function () {
+    $("#ext_selector").on('change', function () {
         console.log("clicked");
         var text = $("#rightFrame").html();
+	var ext_info = $("#ext_selector option:selected").val();
         var url = "save.php";
-        $.post(url, {rightFrame: text}, function () {
+        console.log(ext_info);
+	$.post(url, 
+		{ext: ext_info,
+		rightFrame: text
+		}, function () {
             //$("#textArea").css("background", "#ccc").prop("contenteditable", false);
             console.log(text.length + " characters sent to server.");
         });

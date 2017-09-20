@@ -14,14 +14,18 @@ A set of clickable options to build the perfect Code of Conduct for your event/c
   - [X] test pandoc
   - [X] install pandoc
   - [X] force download https://boutell.com/newfaq/creating/forcedownload.html
-  - [ ] Change to Convert to dropdown then Download Buttons (need a callback for when conversion is done or better would be to make sure the conversion and download are done in one call, also need to give file random name and delete after.).
+  - [X] Change to Convert to dropdown then Download Buttons
+  - [ ] need a callback for when conversion is done or better would be to make sure the conversion and download are done in one call, also need to give file random name and delete after.
 - [ ] More robust way of handling temp files during conversion
 - [X] ADMIN: implement git-flow branches on repo
   - [X] Merge this into master
   - [X] Tag release
   - [X] Create develop/hotfix/feature branches
 - [ ] Add https
-- [ ] Landing page with Why do I need a code of conduct link
+- [ ] Landing page with:
+  - [ ] Why do I need a code of conduct link
+  - [ ] About/Licensing/Attribution
+- [ ] Add reporting section + one more CoC
 
 ### Features
 - [ ] Add "serve" button to create webpage with this CoC

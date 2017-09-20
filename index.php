@@ -52,9 +52,13 @@ h1 {text-align:center;}
         <h3>How can I report a violation of the Code of Conduct?</h3>
         <ul id="reporting"></ul>
     </div>
-    <input type="button" id="save_button" value="Convert to .docx">
-    <form action="download.php" style="display: inline">
-	<input type="submit" id="download" value="Download">
+    <form action="download.php" style="display: inline-block; float:left" method="post">
+	<input type="submit" id="download" value="Download As:">
+    	<select id="ext_selector" style="display: inline-block; width: 50%" name="ext">
+		<option value="docx">.docx (Word)</option>
+		<option value="odt">.odt (Open Office)</option>
+		<option value="html">.html (Web Page)</option>
+    	</select>
     </form>
     </div>
 </section>
