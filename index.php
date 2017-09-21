@@ -33,7 +33,8 @@ h1 {text-align:center;}
                     <option value=" " label="" selected="selected">Choose one</option>
                     <option value="geekfeminisminit" label="General (Geek Feminism Wiki)">General (Geek Feminism Wiki)</option>
                     <option value="ContributorCovenant" label="Contributor Covenant">Contributor Covenant</option>
-                    <option value="MozSciLab" label="MozSciLab">Mozilla Science Lab</option>
+                    <option value="confcodeofconduct" label="Conference CoC">Conf Code of Conduct</option>
+                    <option value="slackdev" label="Slack">Slack Development</option>
                 </select>
             </div>
            </div>

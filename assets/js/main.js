@@ -27,6 +27,11 @@ function onLoad() {
             $("#goodlist").append($li);            
         });
 
+        $("#reporting").empty();
+        $.each(json_obj.reporting.how-to, function( i, point ) {
+           var $li = $("<li><a>"+point+"</a></li>");
+           ("#reporting").append($li);
+        }); 
     });
 
     $('#event-name').on('input', function() {
