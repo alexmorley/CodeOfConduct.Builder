@@ -28,7 +28,7 @@ function onLoad() {
         });
 
         $("#reporting").empty();
-        $.each(json_obj.reporting.how-to, function( i, point ) {
+        $.each(json_obj.reporting.howto, function( i, point ) {
            var $li = $("<li><a>"+point+"</a></li>");
            ("#reporting").append($li);
         }); 

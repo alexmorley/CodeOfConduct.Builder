@@ -15,7 +15,7 @@
     "enforcement" : "If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.",
     "reporting" : {
         "please-do" : "Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.",
-        "how-to" : ["If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.",""]
+        "howto" : ["If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.",""]
     },
     "attribution" : "Original source and credit: http://2012.jsconf.us/#/about & The Ada Initiative. This work is licensed under a Creative Commons Attribution 3.0 Unported License"
 }
