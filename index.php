@@ -56,13 +56,15 @@ h1 {text-align:center;}
     <form action="download.php" style="display: inline-block; float:left" method="post">
 	<input type="submit" id="download" value="Download As:">
     	<select id="ext_selector" style="display: inline-block; width: 50%" name="ext">
-		<option value="docx">.docx (Word)</option>
-		<option value="odt">.odt (Open Office)</option>
-		<option value="html">.html (Web Page)</option>
-    	</select>
+		    <option value="docx">.docx (Word)</option>
+		    <option value="odt">.odt (Open Office)</option>
+		    <option value="html">.html (Web Page)</option>
+        </select>
+        <input type="hidden" id="id" name="id" value="0000000"> 
     </form>
     </div>
 </section>
 
 <script src='assets/js/jquery.js'></script>
 <script src='assets/js/main.js'></script>
+<script src='assets/js/crc32.js'></script>

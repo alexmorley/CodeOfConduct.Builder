@@ -5,9 +5,14 @@ if ( !file_exists($dir) ) {
 	$oldmask = umask(0);
 	mkdir ($dir, 0775); 
 }
-file_put_contents($dir.'/post.dump', $_POST["rightFrame"]);
-chmod($dir.'/post.dump', 0664);
+
+$content = $_POST["rightFrame"];
+$id = $_POST["id"];
 $ext = $_POST["ext"];
-exec("pandoc -f html -t {$ext} -o {$dir}/your_licence.{$ext} {$dir}/post.dump");
-chmod("{$dir}/your_licence.{$ext}", 0664);
+
+$dump_name = "$dir/post.$id.dump";
+file_put_contents($dump_name, $content);
+chmod($dump_name, 0664);
+exec("pandoc -f html -t {$ext} -o {$dir}/your_licence.$id.{$ext} $dump_name");
+chmod("$dir/your_licence.$id.$ext", 0664);
 ?>
