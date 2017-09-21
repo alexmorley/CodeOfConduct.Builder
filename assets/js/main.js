@@ -39,22 +39,28 @@ function onLoad() {
         $('#your-title').text(this.value + '\'s Code of Conduct');
     });
 
+    $("#rightFrame").on('input', function() {
+        $("#ext_selector").val("none");
+    }); 
+
     $("#ext_selector").on('change', function () {
         console.log("clicked");
         var text = $("#rightFrame").html();
 	    var ext_info = $("#ext_selector option:selected").val();
-        var id_info = CRC32.str(text); 
-        $("#id").val(id_info);
-        var url = "save.php";
-        console.log(ext_info);
-	$.post(url, 
-		{ext: ext_info,
-		rightFrame: text,
-        id: id_info
-		}, function () {
-            //$("#textArea").css("background", "#ccc").prop("contenteditable", false);
-            console.log(text.length + " characters sent to server. Hash: " + id_info + "Ext: " + ext_info);
-        });
+        if (ext_info != "none") {
+            var id_info = CRC32.str(text); 
+            $("#id").val(id_info);
+            var url = "save.php";
+            console.log(ext_info);
+        $.post(url, 
+            {ext: ext_info,
+            rightFrame: text,
+            id: id_info
+            }, function () {
+                //$("#textArea").css("background", "#ccc").prop("contenteditable", false);
+                console.log(text.length + " characters sent to server. Hash: " + id_info + "Ext: " + ext_info);
+            });
+        }
     }); 
 }
 console.log("yep");

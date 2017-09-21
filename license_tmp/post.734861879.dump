@@ -1,0 +1,11 @@
+
+        <h2 id="your-title">adfasdfasdf's Code of Conduct</h2> 
+        <h4 id="sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h4> <h4 id="sub-title" style="display: inline-block">Geek Feminism Wiki</h4>
+        <h3>Encoured Behaviour</h3>
+        <ul id="goodlist"></ul>
+        <br>
+        <h3>Unacceptable Behaviour</h3>
+        <ul id="badlist"><li><a>Verbal comments that reinforce social structures of domination [related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, [your specific concern here].</a></li><li><a>Sexual images in public spaces</a></li><li><a>Deliberate intimidation, stalking, or following</a></li><li><a>Harassing photography or recording</a></li><li><a>Sustained disruption of talks or other events</a></li><li><a>Inappropriate physical contact</a></li><li><a>Unwelcome sexual attention</a></li><li><a>Advocating for, or encouraging, any of the above behaviour</a></li></ul>
+        <h3>How can I report a violation of the Code of Conduct?</h3>
+        <ul id="reporting"></ul>
+    

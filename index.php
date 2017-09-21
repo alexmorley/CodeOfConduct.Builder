@@ -56,7 +56,8 @@ h1 {text-align:center;}
     <form action="download.php" style="display: inline-block; float:left" method="post">
 	<input type="submit" id="download" value="Download As:">
     	<select id="ext_selector" style="display: inline-block; width: 50%" name="ext">
-		    <option value="docx">.docx (Word)</option>
+            <option value="none" selected="selected">Choose a file extension</option>
+            <option value="docx">.docx (Word)</option>
 		    <option value="odt">.odt (Open Office)</option>
 		    <option value="html">.html (Web Page)</option>
         </select>
