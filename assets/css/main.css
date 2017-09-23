@@ -1,3 +1,7 @@
+.main {
+    margin: 0;
+}
+
 .container {
     width: 95%;
     margin: auto;
@@ -10,4 +14,32 @@
 .rightFrame {
     float:left;
     width: 45%;
+}
+.banner {
+    padding-right: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
+    margin: 0;
+    display: block;
+}
+
+.landing {
+    display: block;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.flink {
+    padding-right: 10px;
 }
