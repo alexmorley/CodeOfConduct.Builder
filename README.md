@@ -2,6 +2,18 @@
 
 A set of clickable options to build the perfect Code of Conduct for your event/community/organisation
 
+## Development
+To get a local version of this website on your computer *should* be as easy as:
+- install [Docker](docker.io) community edition
+```
+mkdir sitedir; cd sitedir # go to a fresh directory
+git clone https://github.com/alexmorley/CodeOfConduct.Builder.git #clone this project to a folder named app
+git checkout develop # checkout the development branch
+git checkout -b my-new-feature # create a feature branch for your changes 
+sudo docker run -i -t -p "8888:80" -v ${PWD}/app:/app alexmorley/codeofconduct.io #run the docker image
+```
+
+## Admin
 ### Before v0.1 Release
 - [X] Codify one or two CoCs (JSON?)
 - [X] Create a split screen with options & CoC on right
