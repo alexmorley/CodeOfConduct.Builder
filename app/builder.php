@@ -9,7 +9,6 @@ include("head.php");
 include("header.php");
 ?>
 
-<!-- Insert content here -->
 <div id="title" class="container" text-align="center">
     <h1>Code of Conduct Builder</h1>
 </div>
@@ -59,8 +58,9 @@ include("header.php");
         <input type="hidden" id="id" name="id" value="0000000"> 
     </form>
     </div>
+</section>
+</body>
 
 <?php
 include("footer.php")
 ?>
-</body>
