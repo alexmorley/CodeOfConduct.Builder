@@ -9,10 +9,6 @@ include("head.php");
 include("header.php");
 ?>
 
-<div id="title" class="container" text-align="center">
-    <h1>Code of Conduct Builder</h1>
-</div>
-
 <div class="container">
     <div class="leftFrame" id="leftFrame" scrolling="no">
         <div class="container" id="code-generator">

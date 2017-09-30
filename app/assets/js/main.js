@@ -29,8 +29,8 @@ function onLoad() {
 
         $("#reporting").empty();
         $.each(json_obj.reporting.howto, function( i, point ) {
-           var $li = $("<li><a>"+point+"</a></li>");
-           $("#reporting").append($li);
+            var $li = $("<li><a>"+point+"</a></li>");
+            $("#reporting").append($li);
         }); 
     });
 
@@ -44,19 +44,19 @@ function onLoad() {
 
     $("#ext_selector").on('change', function () {
         var text = $("#rightFrame").html();
-	    var ext_info = $("#ext_selector option:selected").val();
+        var ext_info = $("#ext_selector option:selected").val();
         if (ext_info != "none") {
             var id_info = CRC32.str(text); 
             $("#id").val(id_info);
             var url = "save.php";
             console.log(ext_info);
-        $.post(url, 
-            {ext: ext_info,
-            rightFrame: text,
-            id: id_info
-            }, function () {
-                console.log(text.length + " characters sent. Hash: " + id_info + "Ext: " + ext_info);
-            });
+            $.post(url, 
+                    {ext: ext_info,
+                        rightFrame: text,
+                        id: id_info
+                    }, function () {
+                        console.log(text.length + " characters sent. Hash: " + id_info + "Ext: " + ext_info);
+                    });
         }
     }); 
 }

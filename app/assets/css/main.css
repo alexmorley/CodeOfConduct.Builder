@@ -26,6 +26,7 @@
 }
 
 .landing {
+    padding-top: 10%;
     display: block;
     text-align: center;
 }
@@ -43,3 +44,4 @@ footer {
 .flink {
     padding-right: 10px;
 }
+
