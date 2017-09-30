@@ -35,7 +35,6 @@ function onLoad() {
     });
 
     $('#event-name').on('input', function() {
-        console.log(this.value);
         $('#your-title').text(this.value + '\'s Code of Conduct');
     });
 
@@ -44,7 +43,6 @@ function onLoad() {
     }); 
 
     $("#ext_selector").on('change', function () {
-        console.log("clicked");
         var text = $("#rightFrame").html();
 	    var ext_info = $("#ext_selector option:selected").val();
         if (ext_info != "none") {
@@ -57,8 +55,7 @@ function onLoad() {
             rightFrame: text,
             id: id_info
             }, function () {
-                //$("#textArea").css("background", "#ccc").prop("contenteditable", false);
-                console.log(text.length + " characters sent to server. Hash: " + id_info + "Ext: " + ext_info);
+                console.log(text.length + " characters sent. Hash: " + id_info + "Ext: " + ext_info);
             });
         }
     }); 
