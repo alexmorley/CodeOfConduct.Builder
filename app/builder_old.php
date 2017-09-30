@@ -1,17 +1,7 @@
 <head>
-    <meta name="description" content="A Template for generate Codes of Conduct">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" href="./node_modules/milligram/dist/milligram.min.css">
-    <link rel="stylesheet" href="https://milligram.github.io/styles/main.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="icon" href="assets/images/signpost.png">
-    <title>Code of Conduct Remixer</title>
-
-    <style>
-h1 {text-align:center;}
-    </style>
+<?php
+include("head.php")
+?>
 </head>
 
 <div id="title" class="container" text-align="center">
@@ -54,12 +44,12 @@ h1 {text-align:center;}
         <ul id="reporting"></ul>
     </div>
     <form action="download.php" style="display: inline-block; float:left" method="post">
-	<input type="submit" id="download" value="Download As:">
-    	<select id="ext_selector" style="display: inline-block; width: 50%" name="ext">
+    <input type="submit" id="download" value="Download As:">
+        <select id="ext_selector" style="display: inline-block; width: 50%" name="ext">
             <option value="none" selected="selected">Choose a file extension</option>
             <option value="docx">.docx (Word)</option>
-		    <option value="odt">.odt (Open Office)</option>
-		    <option value="html">.html (Web Page)</option>
+            <option value="odt">.odt (Open Office)</option>
+            <option value="html">.html (Web Page)</option>
         </select>
         <input type="hidden" id="id" name="id" value="0000000"> 
     </form>
