@@ -45,7 +45,7 @@ function onLoad() {
     $("#ext_selector").on('change', function () {
         var text = $("#rightFrame").html();
         var ext_info = $("#ext_selector option:selected").val();
-        if (ext_info != "none") {
+	if (ext_info != "none") {
             var id_info = CRC32.str(text); 
             $("#id").val(id_info);
             var url = "save.php";
