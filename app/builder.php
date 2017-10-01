@@ -53,11 +53,6 @@ include("header.php");
             </select>
             <input type="hidden" id="id" name="id" value="0000000"> 
         </form>
-        <script>
-            function downloadFile() {
-                alert("The form was submitted");
-            }
-        </script>
     </div>
 </div>
 </body>
