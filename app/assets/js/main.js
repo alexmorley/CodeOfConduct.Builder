@@ -34,7 +34,10 @@ function onLoad() {
     });
 
     $('#event-name').on('input', function() {
-        $('#your-title').text(this.value + '\'s Code of Conduct');
+
+        const editor = tinymce.editors[0];
+        const $conductDocument = $(editor.getBody());
+        $conductDocument.find('#your-title').text(this.value + '\'s Code of Conduct');
     });
 
     $("#ext_selector").on('change', function () {
