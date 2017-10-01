@@ -2,6 +2,11 @@
 
 A set of clickable options to build the perfect Code of Conduct for your event/community/organisation
 
+## Contributing
+Yay! Come help. Check out the [issues](https://github.com/alexmorley/CodeOfConduct.Builder/issues). The easiest way to serve the website locally is to follow the development guidlines below. Let me know if there are any hitches there!
+
+Also I try to use the branching model described [here](http://nvie.com/posts/a-successful-git-branching-model/). Don't worry about it too much but the main thing is to make pull requests against the develop branch. Not master!
+
 ## Development
 To get a local version of this website on your computer *should* be as easy as:
 - install [Docker](docker.io) community edition
@@ -16,29 +21,8 @@ git checkout -b my-new-feature # create a feature branch for your changes
 
 ## Admin
 ### Before v0.1 Release
-- [X] Codify one or two CoCs (JSON?)
-- [X] Create a split screen with options & CoC on right
-- [X] Use options to modify right screen
-- [X] add an edit button to fields on the right frame
-- [X] Set up a cloud instance
-- [X] Register domain name
-- [X] Add save as pdf/docx/odt/html button. WIP
-  - [X] export html of right frame to save
-  - [X] test pandoc
-  - [X] install pandoc
-  - [X] force download https://boutell.com/newfaq/creating/forcedownload.html
-  - [X] Change to Convert to dropdown then Download Buttons
-  - [X] need a callback for when conversion is done or better would be to make sure the conversion and download are done in one call, also need to give file random name and delete after.
-- [X] More robust way of handling temp files during conversion
-- [X] ADMIN: implement git-flow branches on repo
-  - [X] Merge this into master
-  - [X] Tag release
-  - [X] Create develop/hotfix/feature branches
 - [ ] Add https
-- [ ] Landing page with:
-  - [ ] Why do I need a code of conduct link
-  - [ ] About/Licensing/Attribution
-- [X] Add reporting section + one more CoC
+- [ ] Add a couple of codes of conduct that aren't open source / conference related
 
 ### Features
 - [ ] Add "serve" button to create webpage with this CoC
