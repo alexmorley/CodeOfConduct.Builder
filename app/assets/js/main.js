@@ -45,7 +45,7 @@ function onLoad() {
     $("#ext_selector").on('change', function () {
         var text = $("#rightFrame").html();
         var ext_info = $("#ext_selector option:selected").val();
-	if (ext_info != "none") {
+    if (ext_info != "none") {
             var id_info = CRC32.str(text); 
             $("#id").val(id_info);
             var url = "save.php";
@@ -58,7 +58,32 @@ function onLoad() {
                         console.log(text.length + " characters sent. Hash: " + id_info + "Ext: " + ext_info);
                     });
         }
-    }); 
+    });
+
+    $("#downloadForm").submit(function(){
+        var extension = $("#downloadForm :input[name=ext]")[0].value;
+        var id = $("#downloadForm :input[name=id]")[0].value;
+        if(extension != "pdf"){
+            return true;
+        }
+
+        var doc = new jsPDF();
+        var specialElementHandlers = {
+            '#editor': function (element, renderer) {
+            return true;
+            }
+        };
+
+        doc.fromHTML($('#rightFrame').html(), 15, 15, {
+          'width': 170,
+          'elementHandlers': specialElementHandlers
+        });
+        doc.save('your_license.' + id + '.' + extension);
+        $(this).find("button[type='submit']").prop('disabled',false);
+        doc.output('dataurlnewwindow');
+        return false;
+    });
 }
+
 console.log("yep");
 $(document).ready(onLoad);

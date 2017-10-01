@@ -42,16 +42,22 @@ include("header.php");
             <h3>How can I report a violation of the Code of Conduct?</h3>
             <ul id="reporting"></ul>
         </div>
-        <form action="download.php" style="display: inline-block; float:left; padding-bottom:75" method="post">
+        <form action="download.php" style="display: inline-block; float:left; padding-bottom:75" method="post" id="downloadForm">
             <input type="submit" id="download" value="Download As:">
             <select id="ext_selector" style="display: inline-block; width: 50%" name="ext">
                 <option value="none" selected="selected">Choose a file extension</option>
                 <option value="docx">.docx (Word)</option>
                 <option value="odt">.odt (Open Office)</option>
                 <option value="html">.html (Web Page)</option>
+                <option value="pdf">.pdf (Portable Document Format)</option>
             </select>
             <input type="hidden" id="id" name="id" value="0000000"> 
         </form>
+        <script>
+            function downloadFile() {
+                alert("The form was submitted");
+            }
+        </script>
     </div>
 </div>
 </body>
@@ -61,5 +67,6 @@ include("footer.php")
 ?>
 
 <script src='assets/js/jquery.js'></script>
+<script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
 <script src='assets/js/main.js'></script>
 <script src='assets/js/crc32.js'></script>
