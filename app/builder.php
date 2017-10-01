@@ -9,6 +9,9 @@ include("head.php");
 include("header.php");
 ?>
 
+<script defer src='assets/js/jquery.js'></script>
+<script defer src='assets/js/main.js'></script>
+<script defer src='assets/js/crc32.js'></script>
 <script defer src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
 <script defer src="../assets/js/builder.js"></script>
 
@@ -64,7 +67,3 @@ include("header.php");
 <?php
 include("footer.php")
 ?>
-
-<script src='assets/js/jquery.js'></script>
-<script src='assets/js/main.js'></script>
-<script src='assets/js/crc32.js'></script>
