@@ -62,6 +62,5 @@ include("footer.php")
 ?>
 
 <script src='assets/js/jquery.js'></script>
-<script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
 <script src='assets/js/main.js'></script>
 <script src='assets/js/crc32.js'></script>
