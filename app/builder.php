@@ -36,7 +36,6 @@ include("header.php");
             <h4 id = "sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h4> <h4 id = "sub-title" style="display: inline-block"> </h4>
             <h3>Encouraged Behaviour</h3>
             <ul id="goodlist"></ul>
-            <br>
             <h3>Unacceptable Behaviour</h3>
             <ul id="badlist"></ul>
             <h3>How can I report a violation of the Code of Conduct?</h3>
