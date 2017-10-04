@@ -9,13 +9,13 @@ include("head.php");
 include("header.php");
 ?>
 
-<div class="container">
-    <div class="leftFrame" id="leftFrame" scrolling="no">
-        <div class="container" id="code-generator">
+<div class="flex-grid">
+    <div class="col leftFrame" id="leftFrame" scrolling="no">
+        <div id="code-generator">
             <h3>Getting Started</h3>
             <div id="your-info">
                 <label>What is the name of your event?</label>
-                <input type="text" name="event-name" id="event-name"> 
+                <input type="text" name="event-name" id="event-name">
             </div>
             <div id="cocPreset">
                 <label>Choose a Code of Conduct to start remixing?</label>
@@ -30,9 +30,9 @@ include("header.php");
         </div>
     </div>
 
-    <div class="rightFrame" id = "noedit">
+    <div class="col rightFrame" id = "noedit">
         <div id="rightFrame" contenteditable="true">
-            <h2 id = your-title>Preview - Your Title Goes Here </h2> 
+            <h2 id = your-title>Preview - Your Title Goes Here </h2>
             <h4 id = "sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h4> <h4 id = "sub-title" style="display: inline-block"> </h4>
             <h3>Encouraged Behaviour</h3>
             <ul id="goodlist"></ul>
@@ -50,7 +50,7 @@ include("header.php");
                 <option value="html">.html (Web Page)</option>
                 <option value="pdf">.pdf (Portable Document Format)</option>
             </select>
-            <input type="hidden" id="id" name="id" value="0000000"> 
+            <input type="hidden" id="id" name="id" value="0000000">
         </form>
     </div>
 </div>
