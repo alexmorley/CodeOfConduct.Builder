@@ -2,6 +2,26 @@
     margin: 0;
 }
 
+.content-wrapper--small,
+.content-wrapper--medium,
+.content-wrapper--large {
+    margin: auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.content-wrapper--small {
+    max-width: 500px;
+}
+
+.content-wrapper--medium {
+    max-width: 800px;
+}
+
+.content-wrapper--large {
+    max-width: 1200px;
+}
+
 .container {
     width: 95%;
     margin: auto;
@@ -44,4 +64,3 @@ footer {
 .flink {
     padding-right: 10px;
 }
-

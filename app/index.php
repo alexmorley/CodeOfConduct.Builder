@@ -9,7 +9,7 @@ include("head.php");
 include("header.php");
 ?>
 
-<div class="landing">
+<div class="content-wrapper--large landing">
 <a class="button" href=./builder.php>Build a Code of Conduct</a><br>
 <p class="button" id="fb" href=./why.php onmouseover="this.innerHTML='&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Coming Soon&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;';" onmouseout="this.innerHTML='(Why) Do I need to use a Code of Conduct?'">
     (Why) Do I need to use a Code of Conduct?"
