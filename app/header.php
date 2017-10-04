@@ -4,3 +4,4 @@
     <h1><a href="/" style="color:inherit">Code of Conduct Builder</a></h1>
 </div>
 
+<main>
