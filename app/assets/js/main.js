@@ -14,24 +14,38 @@ function onLoad() {
         console.log("Read attempted");
         $('#sub-title').text(json_obj["title"]);
 
-
         $("#badlist").empty();
-        $.each(json_obj.unacceptable_behaviour.list, function( i, point ) {
-            var $li = $("<li><a>"+point+"</a></li>");      
-            $("#badlist").append($li);            
-        });
-
+        if (json_obj.unacceptable_behaviour == null){
+            $("#badList").append($("<li><a>[The selected Code of Conduct doesn't include Unacceptable Behaviour]</a></li>"));
+        }
+        else{
+            $.each(json_obj.unacceptable_behaviour.list, function( i, point ) {
+                var $li = $("<li><a>"+point+"</a></li>");      
+                $("#badlist").append($li);            
+            });
+        }
+        
         $("#goodlist").empty();
-        $.each(json_obj.encouraged_behaviour.list, function( i, point ) {
-            var $li = $("<li><a>"+point+"</a></li>");      
-            $("#goodlist").append($li);            
-        });
+        if (json_obj.encouraged_behaviour == null){
+            $("#goodlist").append($("<li><a>[The selected Code of Conduct doesn't include Encouraged Behaviour]</a></li>"));
+        }
+        else{
+            $.each(json_obj.encouraged_behaviour.list, function( i, point ) {
+                var $li = $("<li><a>"+point+"</a></li>");      
+                $("#goodlist").append($li);            
+            });
+        }
 
         $("#reporting").empty();
-        $.each(json_obj.reporting.howto, function( i, point ) {
-            var $li = $("<li><a>"+point+"</a></li>");
-            $("#reporting").append($li);
-        }); 
+        if (json_obj.reporting.howto == null){
+            $("#reporting").append($("<li><a>[The selected Code of Conduct doesn't include Reporting Violations]</a></li>"));
+        }
+        else{
+            $.each(json_obj.reporting.howto, function( i, point ) {
+                var $li = $("<li><a>"+point+"</a></li>");
+                $("#reporting").append($li);
+            });
+        }
     });
 
     $('#event-name').on('input', function() {
