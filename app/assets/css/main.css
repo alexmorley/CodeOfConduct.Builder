@@ -7,14 +7,6 @@
     margin: auto;
     padding: 10px;
 }
-.leftFrame {
-    width: 45%;
-    float: left;
-}
-.rightFrame {
-    float:left;
-    width: 45%;
-}
 .banner {
     padding-right: 0;
     padding-left: 10px;
@@ -44,4 +36,3 @@ footer {
 .flink {
     padding-right: 10px;
 }
-
