@@ -75,8 +75,11 @@ function onLoad() {
         printWindow.document.write('<link rel="stylesheet" href="../node_modules/milligram/dist/milligram.css"/>')
         printWindow.document.write(divContents);
         printWindow.document.write('</body></html>');
-        printWindow.document.close();
-        printWindow.print();
+        
+        setInterval( function () {
+            printWindow.document.close();
+            printWindow.print();
+        }, 100); /* Non-Firefox browsers need a delay or they print a blank page */
 
         return false;
     });
