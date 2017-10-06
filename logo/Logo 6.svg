@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="793px" height="56px" viewBox="0 0 793 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CodeOfConductBuilder" transform="translate(-960.000000, -513.000000)" fill="#000000">
+            <g id="Logo-6" transform="translate(960.000000, 501.000000)">
+                <g id="Group">
+                    <text id="Code-of-Conduct-Buil" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="72" font-style="condensed" font-weight="bold" letter-spacing="1">
+                        <tspan x="71" y="67">Code of Conduct Builder</tspan>
+                    </text>
+                    <path d="M26.8344886,47 C28.6410324,51.6800601 33.1828094,55 38.5,55 C45.4035594,55 51,49.4035594 51,42.5 C51,40.7580891 50.6436985,39.0993969 50,37.5928279 L50,37 L49.7281037,37 C47.6933996,32.8540342 43.4299975,30 38.5,30 C33.5700025,30 29.3066004,32.8540342 27.2718963,37 L0,37 L0,47 L26.8344886,47 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
