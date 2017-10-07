@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="409.15625"
+   height="175.72266"
+   viewBox="0 0 409.15625 175.72266"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bullet_lines.svg">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Logo 3</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview26"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0318471"
+     inkscape:cx="164.26852"
+     inkscape:cy="97.58126"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group" />
+  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">Logo 3</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="Page-1"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(0.80145481,0,0,0.80145481,33.919753,8.3905096)">
+    <g
+       id="CodeOfConductBuilder"
+       transform="translate(-1066,-133)"
+       style="fill:#000000">
+      <g
+         id="Logo-3"
+         transform="translate(1066,132)">
+        <g
+           id="Group">
+          <text
+             id="Code-Of-Conduct"
+             font-size="72"
+             font-style="condensed"
+             font-weight="bold"
+             line-spacing="60"
+             letter-spacing="1"
+             style="font-weight:bold;font-size:72px;font-family:RobotoCondensed-Bold, 'Roboto Condensed';letter-spacing:1"
+             x="-2.4184415"
+             y="-2.4184415">
+            <tspan
+               x="68.581558"
+               y="64.581558"
+               id="tspan15">Code</tspan>
+            <tspan
+               x="68.581558"
+               y="124.58156"
+               id="tspan17">Of</tspan>
+            <tspan
+               x="68.581558"
+               y="184.58156"
+               id="tspan19">Conduct</tspan>
+          </text>
+          <path
+             d="m 29.329951,43.981848 c 1.806543,4.68006 6.34832,8 11.665511,8 6.903559,0 12.5,-5.596441 12.5,-12.5 0,-1.741911 -0.356302,-3.400603 -1,-4.907172 l 0,-0.592828 -0.271896,0 c -2.034704,-4.145966 -6.298107,-7 -11.228104,-7 -4.929998,0 -9.1934,2.854034 -11.228104,7 l -27.271896,0 0,10 26.834489,0 z"
+             id="Combined-Shape"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 29.329951,103.98185 c 1.806543,4.68005 6.34832,7.99999 11.665511,7.99999 6.903559,0 12.5,-5.59644 12.5,-12.499992 0,-1.74191 -0.356302,-3.400603 -1,-4.907172 l 0,-0.592828 -0.271896,0 c -2.034704,-4.145966 -6.298107,-7 -11.228104,-7 -4.929998,0 -9.1934,2.854034 -11.228104,7 l -27.271896,0 0,10.000002 26.834489,0 z"
+             id="path22"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 29.329951,163.98184 c 1.806543,4.68006 6.34832,8 11.665511,8 6.903559,0 12.5,-5.59644 12.5,-12.5 0,-1.74191 -0.356302,-3.4006 -1,-4.90717 l 0,-0.59283 -0.271896,0 c -2.034704,-4.14597 -6.298107,-7 -11.228104,-7 -4.929998,0 -9.1934,2.85403 -11.228104,7 l -27.271896,0 0,10 26.834489,0 z"
+             id="path24"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
