@@ -57,6 +57,32 @@ function onLoad() {
                     });
         }
     });
+/*
+    $("#downloadForm").submit(function(){
+        var extension = $("#downloadForm :input[name=ext]")[0].value;
+        var id = $("#downloadForm :input[name=id]")[0].value;
+        var filename = 'your_license.' + id + '.' + extension;
+        if(extension != "pdf"){
+            return true;
+        }
+
+        var divContents = $("#rightFrame").html();
+        var printWindow = window.open('', '', 'height=400,width=800');
+        printWindow.document.write('<html><head><title>' + filename + '</title>');
+        printWindow.document.write('</head><body>');
+        printWindow.document.write('<link rel="stylesheet" href="../node_modules/milligram/dist/milligram.css"/>')
+        printWindow.document.write(divContents);
+        printWindow.document.write('</body></html>');
+        
+        setInterval( function () {
+            printWindow.document.close();
+            printWindow.print();
+        }, 100); // Non-Firefox browsers need a delay or they print a blank page
+
+        return false;
+    });
+*/
 }
+
 console.log("yep");
 $(document).ready(onLoad);

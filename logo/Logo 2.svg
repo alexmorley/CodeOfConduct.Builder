@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="225px" viewBox="0 0 314 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CodeOfConductBuilder" transform="translate(-554.000000, -107.000000)" fill="#000000">
+            <g id="Logo-2" transform="translate(554.000000, 94.000000)">
+                <g id="Group">
+                    <text id="Code-Of-Conduct" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="72" font-style="condensed" font-weight="bold" letter-spacing="1">
+                        <tspan x="71" y="67">Code</tspan>
+                        <tspan x="71" y="152">Of</tspan>
+                        <tspan x="71" y="237">Conduct</tspan>
+                    </text>
+                    <circle id="Oval-7" cx="38.5" cy="42.5" r="12.5"></circle>
+                    <rect id="Rectangle" x="0" y="37" width="50" height="10"></rect>
+                    <circle id="Oval-7" cx="38.5" cy="127.5" r="12.5"></circle>
+                    <circle id="Oval-7" cx="38.5" cy="211.5" r="12.5"></circle>
+                </g>
+                <rect id="Rectangle" x="0" y="206" width="50" height="10"></rect>
+                <rect id="Rectangle" x="0" y="122" width="50" height="10"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

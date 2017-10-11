@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="253px" height="145px" viewBox="0 0 253 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CodeOfConductBuilder" transform="translate(-480.000000, -471.000000)">
+            <g id="Logo-5" transform="translate(480.000000, 471.000000)">
+                <rect id="Rectangle-24" stroke="#000000" stroke-width="10" x="5" y="5" width="243" height="135"></rect>
+                <text id="CODE-OF-CONDUCT" font-family="Roboto-Bold, Roboto" font-size="48" font-weight="bold" line-spacing="40" letter-spacing="0.666666687" fill="#000000">
+                    <tspan x="113.90625" y="58">CODE</tspan>
+                    <tspan x="178.544271" y="98">OF</tspan>
+                    <tspan x="13" y="138">CONDUCT</tspan>
+                </text>
+                <path d="M151.496616,76 C153.010297,81.2000405 157.811384,85 163.5,85 C170.403559,85 176,79.4035594 176,72.5 C176,65.5964406 170.403559,60 163.5,60 C158.182809,60 153.641032,63.3199399 151.834489,68 L15,68 L15,76 L151.496616,76 Z" id="Combined-Shape" fill="#000000"></path>
+                <path d="M87.4966155,36 C89.0102967,41.2000405 93.8113843,45 99.5,45 C106.403559,45 112,39.4035594 112,32.5 C112,25.5964406 106.403559,20 99.5,20 C94.1828094,20 89.6410324,23.3199399 87.8344886,28 L15,28 L15,36 L87.4966155,36 Z" id="Combined-Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>
