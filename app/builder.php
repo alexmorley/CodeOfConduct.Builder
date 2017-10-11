@@ -15,9 +15,9 @@ include("header.php");
 <script defer src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
 <script defer src="../assets/js/builder.js"></script>
 
-<div class="container">
-    <div class="leftFrame" id="leftFrame" scrolling="no">
-        <div class="container" id="code-generator">
+<div class="flex-grid">
+    <div class="col leftFrame" id="leftFrame" scrolling="no">
+        <div id="code-generator">
             <h3>Getting Started</h3>
             <div id="your-info">
                 <label>What is the name of your event?</label>
@@ -36,14 +36,12 @@ include("header.php");
         </div>
     </div>
 
-    <div class="rightFrame" id = "noedit">
-
-        <textarea id="rightFrame">
+    <div class="col rightFrame" id = "noedit">
+        <textarea id="rightFrame"> <!-- div & contenteditable="true">-->
             <h2 id = your-title>Preview - Your Title Goes Here </h2>
             <h4 id = "sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h4> <h4 id = "sub-title" style="display: inline-block"> </h4>
             <h3>Encouraged Behaviour</h3>
             <ul id="goodlist"></ul>
-            <br>
             <h3>Unacceptable Behaviour</h3>
             <ul id="badlist"></ul>
             <h3>How can I report a violation of the Code of Conduct?</h3>
@@ -57,6 +55,7 @@ include("header.php");
                 <option value="docx">.docx (Word)</option>
                 <option value="odt">.odt (Open Office)</option>
                 <option value="html">.html (Web Page)</option>
+                <option value="pdf">.pdf (Portable Document Format)</option>
             </select>
             <input type="hidden" id="id" name="id" value="0000000">
         </form>
