@@ -1,78 +1,53 @@
-function onLoad() {
+var DEBUG = true
+
+function replace_section(section_json,section_html) {
+        DEBUG && console.log(section_html);
+        
+        section_html.empty()
+        if (section_json == null){
+            section_html.append($("<li><a>[The selected Code of Conduct doesn't include Unacceptable Behaviour]</a></li>"));
+        }
+        else{
+            $.each(section_json, function( i, point ) {
+                var $li = $("<li><a>"+point+"</a></li>");      
+                section_html.append($li);            
+            });
+        }
+}
+
+function onLoad() { 
+    // When a new Code of Conduct is selected
     $('#coc-base').on('change', async function() {
         var selectedBase = $('#coc-base option:selected').val();
-        console.log(selectedBase);
-
+        DEBUG && console.log(selectedBase);
         const response = await fetch("resources/"+selectedBase+".json");
         const json_obj = await response.json();
+        DEBUG &&console.log("Read attempted");
 
-        console.log("Read attempted");
-
+        // Load editor
         const editor = tinymce.editors[0];
         const $conductDocument = $(editor.getBody());
 
+        // Replace the:
+        // Sub-Title:
         $conductDocument.find('#sub-title').text(json_obj["title"]);
-
-
-        $conductDocument.find("#badlist").empty();
-        $.each(json_obj.unacceptable_behaviour.list, function( i, point ) {
-            var $li = $("<li><a>"+point+"</a></li>");
-            $conductDocument.find("#badlist").append($li);
-        });
-
-        $conductDocument.find("#goodlist").empty();
-        $.each(json_obj.encouraged_behaviour.list, function( i, point ) {
-            var $li = $("<li><a>"+point+"</a></li>");
-            $conductDocument.find("#goodlist").append($li);
-        });
-
-        $conductDocument.find("#reporting").empty();
-        $.each(json_obj.reporting.howto, function( i, point ) {
-            var $li = $("<li><a>"+point+"</a></li>");
-            $conductDocument.find("#reporting").append($li);
-        });
-
-        $("#badlist").empty();
-        if (json_obj.unacceptable_behaviour == null){
-            $("#badList").append($("<li><a>[The selected Code of Conduct doesn't include Unacceptable Behaviour]</a></li>"));
-        }
-        else{
-            $.each(json_obj.unacceptable_behaviour.list, function( i, point ) {
-                var $li = $("<li><a>"+point+"</a></li>");      
-                $("#badlist").append($li);            
-            });
-        }
         
-        $("#goodlist").empty();
-        if (json_obj.encouraged_behaviour == null){
-            $("#goodlist").append($("<li><a>[The selected Code of Conduct doesn't include Encouraged Behaviour]</a></li>"));
-        }
-        else{
-            $.each(json_obj.encouraged_behaviour.list, function( i, point ) {
-                var $li = $("<li><a>"+point+"</a></li>");      
-                $("#goodlist").append($li);            
-            });
-        }
-
-        $("#reporting").empty();
-        if (json_obj.reporting.howto == null){
-            $("#reporting").append($("<li><a>[The selected Code of Conduct doesn't include Reporting Violations]</a></li>"));
-        }
-        else{
-            $.each(json_obj.reporting.howto, function( i, point ) {
-                var $li = $("<li><a>"+point+"</a></li>");
-                $("#reporting").append($li);
-            });
-        }
+        // Unacceptable Behaviour               
+        replace_section(json_obj.unacceptable_behaviour.list, $conductDocument.find("#badlist"))
+        // Encouraged
+        replace_section(json_obj.encouraged_behaviour.list, $conductDocument.find("#goodlist"))
+        // Reporting
+        replace_section(json_obj.reporting.howto,  $conductDocument.find("#reporting"))
     });
 
+    // Event Title
     $('#event-name').on('input', function() {
-
         const editor = tinymce.editors[0];
         const $conductDocument = $(editor.getBody());
         $conductDocument.find('#your-title').text(this.value + '\'s Code of Conduct');
     });
 
+    // Run Conversion
     $("#ext_selector").on('change', function () {
         var text = $("#rightFrame").html();
         var ext_info = $("#ext_selector option:selected").val();
@@ -86,7 +61,7 @@ function onLoad() {
                         rightFrame: text,
                         id: id_info
                     }, function () {
-                        console.log(text.length + " characters sent. Hash: " + id_info + "Ext: " + ext_info);
+                        DEBUG && console.log(text.length + " characters sent. Hash: " + id_info + "Ext: " + ext_info);
                     });
         }
     });
@@ -118,5 +93,5 @@ function onLoad() {
 */
 }
 
-console.log("yep");
+DEBUG && console.log("yep");
 $(document).ready(onLoad);
