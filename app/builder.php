@@ -37,9 +37,9 @@ include("header.php");
     </div>
 
     <div class="col rightFrame" id = "noedit">
+        <button id="switch_ed" class="slider">Switch Editor</button>
         <form action="download.php" style="display: inline-block; float:left; padding-bottom:75" method="post" id="downloadForm">
-            <textarea name="content" id="rightFrame">
-            <!--div id="rightFrame" contenteditable="true">-->
+            <textarea name="content" id="rightFrame"> 
                 <h2 id = your-title>Preview - Your Title Goes Here </h2>
                 <h4 id = "sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h4> <h4 id = "sub-title" style="display: inline-block"> </h4>
                 <h3>Encouraged Behaviour</h3>
