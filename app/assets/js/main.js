@@ -31,6 +31,39 @@ function onLoad() {
             var $li = $("<li><a>"+point+"</a></li>");
             $conductDocument.find("#reporting").append($li);
         });
+
+        $("#badlist").empty();
+        if (json_obj.unacceptable_behaviour == null){
+            $("#badList").append($("<li><a>[The selected Code of Conduct doesn't include Unacceptable Behaviour]</a></li>"));
+        }
+        else{
+            $.each(json_obj.unacceptable_behaviour.list, function( i, point ) {
+                var $li = $("<li><a>"+point+"</a></li>");      
+                $("#badlist").append($li);            
+            });
+        }
+        
+        $("#goodlist").empty();
+        if (json_obj.encouraged_behaviour == null){
+            $("#goodlist").append($("<li><a>[The selected Code of Conduct doesn't include Encouraged Behaviour]</a></li>"));
+        }
+        else{
+            $.each(json_obj.encouraged_behaviour.list, function( i, point ) {
+                var $li = $("<li><a>"+point+"</a></li>");      
+                $("#goodlist").append($li);            
+            });
+        }
+
+        $("#reporting").empty();
+        if (json_obj.reporting.howto == null){
+            $("#reporting").append($("<li><a>[The selected Code of Conduct doesn't include Reporting Violations]</a></li>"));
+        }
+        else{
+            $.each(json_obj.reporting.howto, function( i, point ) {
+                var $li = $("<li><a>"+point+"</a></li>");
+                $("#reporting").append($li);
+            });
+        }
     });
 
     $('#event-name').on('input', function() {
@@ -43,7 +76,7 @@ function onLoad() {
     $("#ext_selector").on('change', function () {
         var text = $("#rightFrame").html();
         var ext_info = $("#ext_selector option:selected").val();
-	if (ext_info != "none") {
+	      if (ext_info != "none") {
             var id_info = CRC32.str(text);
             $("#id").val(id_info);
             var url = "save.php";
@@ -57,7 +90,8 @@ function onLoad() {
                     });
         }
     });
-/*
+
+ /*
     $("#downloadForm").submit(function(){
         var extension = $("#downloadForm :input[name=ext]")[0].value;
         var id = $("#downloadForm :input[name=id]")[0].value;
