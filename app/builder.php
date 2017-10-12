@@ -9,6 +9,12 @@ include("head.php");
 include("header.php");
 ?>
 
+<script defer src='assets/js/jquery.js'></script>
+<script defer src='assets/js/main.js'></script>
+<script defer src='assets/js/crc32.js'></script>
+<script defer src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+<script defer src="../assets/js/builder.js"></script>
+
 <div class="flex-grid">
     <div class="col leftFrame" id="leftFrame" scrolling="no">
         <div id="code-generator">
@@ -31,7 +37,8 @@ include("header.php");
     </div>
 
     <div class="col rightFrame" id = "noedit">
-        <div id="rightFrame" contenteditable="true">
+        <textarea id="rightFrame">
+        <!--div id="rightFrame" contenteditable="true">-->
             <h2 id = your-title>Preview - Your Title Goes Here </h2>
             <h4 id = "sub-title-pre" style="display: inline; font-weight:bold"> Based on:</h4> <h4 id = "sub-title" style="display: inline-block"> </h4>
             <h3>Encouraged Behaviour</h3>
@@ -40,7 +47,7 @@ include("header.php");
             <ul id="badlist"></ul>
             <h3>How can I report a violation of the Code of Conduct?</h3>
             <ul id="reporting"></ul>
-        </div>
+        </textarea>
         <form action="download.php" style="display: inline-block; float:left; padding-bottom:75" method="post" id="downloadForm">
             <input type="submit" id="download" value="Download As:">
             <select id="ext_selector" style="display: inline-block; width: 50%" name="ext">
@@ -59,7 +66,3 @@ include("header.php");
 <?php
 include("footer.php")
 ?>
-
-<script src='assets/js/jquery.js'></script>
-<script src='assets/js/main.js'></script>
-<script src='assets/js/crc32.js'></script>
