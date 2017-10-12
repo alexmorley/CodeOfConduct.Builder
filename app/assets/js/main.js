@@ -8,7 +8,6 @@ function onLoad() {
 
         console.log("Read attempted");
 
-<<<<<<< HEAD
         const editor = tinymce.editors[0];
         const $conductDocument = $(editor.getBody());
 
@@ -32,7 +31,7 @@ function onLoad() {
             var $li = $("<li><a>"+point+"</a></li>");
             $conductDocument.find("#reporting").append($li);
         });
-=======
+
         $("#badlist").empty();
         if (json_obj.unacceptable_behaviour == null){
             $("#badList").append($("<li><a>[The selected Code of Conduct doesn't include Unacceptable Behaviour]</a></li>"));
@@ -65,7 +64,6 @@ function onLoad() {
                 $("#reporting").append($li);
             });
         }
->>>>>>> master
     });
 
     $('#event-name').on('input', function() {
@@ -78,13 +76,8 @@ function onLoad() {
     $("#ext_selector").on('change', function () {
         var text = $("#rightFrame").html();
         var ext_info = $("#ext_selector option:selected").val();
-<<<<<<< HEAD
-	if (ext_info != "none") {
+	      if (ext_info != "none") {
             var id_info = CRC32.str(text);
-=======
-        if (ext_info != "none") {
-            var id_info = CRC32.str(text); 
->>>>>>> master
             $("#id").val(id_info);
             var url = "save.php";
             console.log(ext_info);
@@ -97,9 +90,8 @@ function onLoad() {
                     });
         }
     });
-<<<<<<< HEAD
-=======
 
+ /*
     $("#downloadForm").submit(function(){
         var extension = $("#downloadForm :input[name=ext]")[0].value;
         var id = $("#downloadForm :input[name=id]")[0].value;
@@ -119,11 +111,11 @@ function onLoad() {
         setInterval( function () {
             printWindow.document.close();
             printWindow.print();
-        }, 100); /* Non-Firefox browsers need a delay or they print a blank page */
+        }, 100); // Non-Firefox browsers need a delay or they print a blank page
 
         return false;
     });
->>>>>>> master
+*/
 }
 
 console.log("yep");

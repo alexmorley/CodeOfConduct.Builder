@@ -1,7 +1,14 @@
 <?php
-header("Content-disposition: attachment; filename=your_license.".$_POST["id"].".".$_POST["ext"]);
-header("Content-type: application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+
 $ext = $_POST["ext"];
 $id = $_POST["id"];
-readfile("license_tmp/your_licence.$id.$ext");
+
+header("Content-disposition: attachment; filename=your_license.{$id}.{$ext}");
+header("Content-type: application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+
+$filename = "license_tmp/your_licence.$id.$ext";
+
+file_put_contents($filename, $_POST['content']);
+
+readfile($filename);
 ?>

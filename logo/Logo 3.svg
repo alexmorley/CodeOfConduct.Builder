@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="175px" viewBox="0 0 314 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CodeOfConductBuilder" transform="translate(-1066.000000, -133.000000)" fill="#000000">
+            <g id="Logo-3" transform="translate(1066.000000, 132.000000)">
+                <g id="Group">
+                    <text id="Code-Of-Conduct" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="72" font-style="condensed" font-weight="bold" line-spacing="60" letter-spacing="1">
+                        <tspan x="71" y="67">Code</tspan>
+                        <tspan x="71" y="127">Of</tspan>
+                        <tspan x="71" y="187">Conduct</tspan>
+                    </text>
+                    <path d="M26.8344886,34 C28.6410324,38.6800601 33.1828094,42 38.5,42 C45.4035594,42 51,36.4035594 51,29.5 C51,27.7580891 50.6436985,26.0993969 50,24.5928279 L50,24 L49.7281037,24 C47.6933996,19.8540342 43.4299975,17 38.5,17 C33.5700025,17 29.3066004,19.8540342 27.2718963,24 L0,24 L0,34 L26.8344886,34 Z" id="Combined-Shape"></path>
+                    <path d="M26.8344886,94 C28.6410324,98.6800601 33.1828094,102 38.5,102 C45.4035594,102 51,96.4035594 51,89.5 C51,87.7580891 50.6436985,86.0993969 50,84.5928279 L50,84 L49.7281037,84 C47.6933996,79.8540342 43.4299975,77 38.5,77 C33.5700025,77 29.3066004,79.8540342 27.2718963,84 L0,84 L0,94 L26.8344886,94 Z" id="Combined-Shape"></path>
+                    <path d="M26.8344886,154 C28.6410324,158.68006 33.1828094,162 38.5,162 C45.4035594,162 51,156.403559 51,149.5 C51,147.758089 50.6436985,146.099397 50,144.592828 L50,144 L49.7281037,144 C47.6933996,139.854034 43.4299975,137 38.5,137 C33.5700025,137 29.3066004,139.854034 27.2718963,144 L0,144 L0,154 L26.8344886,154 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
