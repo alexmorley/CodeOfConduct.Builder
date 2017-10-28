@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 165.02067 77.264488"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="electric_integrated_text.svg"
+   width="165.02066"
+   height="77.264488">
+  <metadata
+     id="metadata57">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>logo-options</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="952"
+     inkscape:window-height="480"
+     id="namedview55"
+     showgrid="false"
+     inkscape:zoom="1.9832283"
+     inkscape:cx="151.50999"
+     inkscape:cy="43.207574"
+     inkscape:window-x="243"
+     inkscape:window-y="99"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs3">
+    <style
+       id="style5">.cls-1{font-size:29px;fill:#231f20;font-family:Varela Round;}.cls-2{letter-spacing:-2px;}.cls-3{font-size:15px;font-family:Shree Devanagari 714;}.cls-4{letter-spacing:1px;}.cls-5{fill:#3c3694;}.cls-6{fill:#fff;}.cls-7{fill:#ccc;}</style>
+  </defs>
+  <title
+     id="title7">logo-options</title>
+  <text
+     class="cls-1"
+     id="text9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.59244537px;line-height:85.00000238%;font-family:'Varela Round';-inkscape-font-specification:'Varela Round, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#231f20"
+     sodipodi:linespacing="85.000002%"
+     x="64.911789"
+     y="29.311735"
+     transform="scale(1.0238916,0.97666587)">
+    <tspan
+       sodipodi:role="line"
+       id="tspan3524"
+       x="64.911789"
+       y="29.311735">ode of</tspan>
+    <tspan
+       sodipodi:role="line"
+       id="tspan3526"
+       x="64.911789"
+       y="51.915318">onduct</tspan>
+  </text>
+  <ellipse
+     class="cls-5"
+     cx="35.678234"
+     cy="31.744045"
+     id="circle45"
+     style="fill:#3c3694"
+     rx="30.63595"
+     ry="29.222904" />
+  <path
+     class="cls-6"
+     d="m 22.890565,16.949 0,22.488112 0.0845,0 0,0 -0.07511,-0.07165 7.95239,0 0,-14.884604 z"
+     id="path47"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <polygon
+     class="cls-6"
+     points="56.11,55.08 56.11,55.08 39.37,55.08 39.37,63.57 64.53,63.57 56.11,55.2 "
+     id="polygon49"
+     style="fill:#ffffff"
+     transform="matrix(0.93888905,0,0,0.89558392,-6.0929407,-9.9185175)" />
+  <path
+     class="cls-6"
+     d="m 48.306291,14.333895 -0.103277,-0.07165 -23.69756,0 7.896057,7.585596 15.782725,0 0,-7.496037 0.112667,0.10747 a 0.9952224,0.94931895 0 0 1 0.0094,-0.125382 z"
+     id="path51"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <rect
+     class="cls-7"
+     x="18.318176"
+     y="42.661213"
+     width="9.1447792"
+     height="8.7229872"
+     id="rect53"
+     style="fill:#cccccc" />
+  <text
+     y="107.61296"
+     x="89.770241"
+     class="cls-1"
+     id="text9-8"
+     style="font-size:29px;font-family:'Varela Round';fill:#231f20" />
+  <text
+     id="text3478"
+     class="cls-1"
+     x="5.728713"
+     y="75.284447"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75471306px;line-height:125%;font-family:'Varela Round';-inkscape-font-specification:'Varela Round, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#231f20"
+     sodipodi:linespacing="125%"
+     transform="scale(1.0238916,0.97666588)">
+    <tspan
+       sodipodi:role="line"
+       id="tspan3514"
+       x="5.728713"
+       y="75.284447">BUILDER</tspan>
+  </text>
+</svg>

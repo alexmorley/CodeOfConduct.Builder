@@ -36,6 +36,15 @@ main {
         width: 100%;
         margin-right: 0;
     }
+    .landing {
+        transform: scale(1);
+    }
+}
+
+@media ( max-width: 450px ) {
+    .landing {
+        transform: scale(1.5);
+    }
 }
 
 .content-wrapper--small,
@@ -75,7 +84,7 @@ main {
 }
 
 .landing {
-    padding-top: 10%;
+    padding-top: 3%;
     display: block;
     text-align: center;
 }
