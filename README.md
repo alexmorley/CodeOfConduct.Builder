@@ -1,4 +1,4 @@
-# CodeOfConduct.Builder
+<img src="/app/assets/images/logo.png" width="25%" alt="Code of Conduct Builder Logo">
 
 A set of clickable options to build the perfect Code of Conduct for your event/community/organisation.
 
@@ -9,7 +9,7 @@ Yay! Come help. Check out the [issues](https://github.com/alexmorley/CodeOfCondu
 
 Also I try to use the branching model described [here](http://nvie.com/posts/a-successful-git-branching-model/). Don't worry about it too much but the main thing is to make pull requests against the develop branch. Not master!
 
-We expect everyone to follow [our own code of conduct](https://www.mozilla.org/en-US/about/governance/policies/participation/) as well as the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/).
+We expect everyone to follow [our own code of conduct](./CODE_OF_CONDUCT.md) as well as the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/).
 
 
 ## Development
