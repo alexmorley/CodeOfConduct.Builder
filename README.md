@@ -2,6 +2,8 @@
 
 A set of clickable options to build the perfect Code of Conduct for your event/community/organisation.
 
+Check out it out at [http://codeofconduct.io](http://codeofconduct.io).
+
 ## Contributing
 Yay! Come help. Check out the [issues](https://github.com/alexmorley/CodeOfConduct.Builder/issues). The easiest way to serve the website locally is to follow the development guidlines below. Let me know if there are any hitches there!
 
