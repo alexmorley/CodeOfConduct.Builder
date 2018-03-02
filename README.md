@@ -1,4 +1,4 @@
-<img src="/app/assets/images/logo.png" width="100" height="100" alt="Code of Conduct Builder Logo">
+<img src="/app/assets/images/logo.png" width="50%" alt="Code of Conduct Builder Logo">
 
 A set of clickable options to build the perfect Code of Conduct for your event/community/organisation.
 
