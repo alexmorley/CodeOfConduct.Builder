@@ -13,6 +13,9 @@ We expect everyone to follow [our own code of conduct](./CODE_OF_CONDUCT.md) as 
 
 
 ## Development
+
+**Hopefully we can make this even easier (and remove the need to download docker, which is probably overkill...) - See Issue #50**
+
 To get a local version of this website on your computer *should* be as easy as:
 - install [Docker](docker.io) community edition
 ```
