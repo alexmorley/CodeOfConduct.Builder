@@ -1,3 +1,4 @@
+ [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/CodeOfConduct-Builder/Lobby#)
 <img src="/app/assets/images/logo.png" width="25%" alt="Code of Conduct Builder Logo">
 
 A set of clickable options to build the perfect Code of Conduct for your event/community/organisation.
