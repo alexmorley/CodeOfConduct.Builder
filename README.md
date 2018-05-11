@@ -13,7 +13,7 @@ Also I try to use the branching model described [here](http://nvie.com/posts/a-s
 
 We expect everyone to follow [our own code of conduct](./CODE_OF_CONDUCT.md) as well as the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/).
 
-### Contributors :party:
+### Contributors :tada:
     @DovidM
     @stevenanthonyrevo
     @harleo
